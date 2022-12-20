@@ -1,6 +1,6 @@
-.PHONY: start stop restart build sh logs
+.PHONY: start stop restart build sh logs tag push
 
-container=next
+container=nextjs
 
 # start all the containers
 start:
@@ -24,3 +24,9 @@ sh:
 # check console output
 logs:
 	docker compose logs -f
+
+tag:
+	docker image tag $(container) richardkovacs/$(container):$(t)
+
+push:
+	docker image push richardkovacs/$(container):$(t)
