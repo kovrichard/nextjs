@@ -1,0 +1,13 @@
+version: '3'
+services:
+  next:
+    image: next
+    build: ./
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app/
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
+    ports:
+      - 3000:3000
+    command: npm run dev
