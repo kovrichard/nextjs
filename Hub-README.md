@@ -62,7 +62,7 @@ If you would like to install additional Node dependencies, open a shell inside t
 ```
 docker compose run --rm nextjs /bin/sh
 ```
-and then add your dependencies with e.g. `npm add <dependency>`. Uncomment `npm i ` at the end of the `Dockerfile` to install them at each build into the image.
+and then add your dependencies with e.g. `npm add <dependency>`. Uncomment `npm i` at the end of the `Dockerfile` to install them at each build into the image.
 ## Source
 
 You can check out the repository on [GitHub](https://github.com/kovrichard/nextjs).
