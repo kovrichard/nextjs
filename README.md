@@ -14,7 +14,7 @@ Contents:
 ## How to use this image
 
 ```
-FROM richardkovacs/nextjs
+FROM richardkovacs/nextjs:13
 ```
 
 Available on the Docker Hub: [nextjs](https://hub.docker.com/r/richardkovacs/nextjs)

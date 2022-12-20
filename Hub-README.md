@@ -16,7 +16,7 @@ Contents:
 ## How to use this image
 
 ```
-FROM richardkovacs/nextjs
+FROM richardkovacs/nextjs:13
 ```
 
 ### Mounting a directory
